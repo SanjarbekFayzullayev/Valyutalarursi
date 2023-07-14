@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'model/data_model.dart';
 
 class MainProvider extends ChangeNotifier {
+
   String? selectedDate;
   List<DataModel> dataModel = [];
   Future<List<DataModel>> getRequestHttp() async {
